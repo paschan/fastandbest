@@ -1,0 +1,138 @@
+body,html, #root, #root > .container-fluid {
+  height: 100%;
+  min-height: 100%;
+}
+.App {
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins',sans-serif;
+}
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.form-container{
+  background-color: #121317;
+  padding: 64px;
+  height: 100% !important;
+  min-height: calc(100% - 66px);
+}
+.form {
+  display: flex;
+  justify-content: center;
+}
+.form-content{
+  height: 750px;
+  background-color: #282c34;
+  width: 500px !important;
+  /* padding: 64px 86px 64px 86px; */
+  padding: 64px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0px 12px 12px 0px;
+}
+.form-content-profile{
+  height: 750px;
+  background-color: #282c34;
+  width: 500px !important;
+  /* padding: 64px 86px 64px 86px; */
+  padding: 64px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+
+.form-content-history{
+  height: 750px;
+  background-color: #282c34;
+  width: 1400px !important;
+  /* padding: 64px 86px 64px 86px; */
+  padding: 64px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 12px;
+}
+.form-image{
+  height: 750px;
+  width: 500px;
+  /* margin-right: 20px; */
+  align-items: center;
+  background-color: #282c34;
+  justify-content: center;
+  border-radius: 12px 0px 0px 12px;
+}
+.form--image{
+  height: 100% !important;
+  width: 100% !important;
+  border-radius: 12px 0px 0px 12px;
+}
+.form-title{
+  margin-bottom: 32px;
+}
+.form-item {
+  position: relative;
+  margin-bottom: 20px;
+}
+.form--error-msg {
+  position: absolute;
+  left: 0;
+  bottom: -20px;
+  font-size: 12px; 
+  color: #dc3545;
+  width: 100%;
+}
+.form-labels{
+  color: aliceblue;
+  margin-bottom: 4px;
+  margin-top: 10px;
+}
+.form-div{
+  height: 70px;
+}
+.header-container{
+  background: #282c34;
+  color: aliceblue;
+  padding: 20px 80px 20px 80px;
+}
+.navbar-link{
+  color: aliceblue;
+  text-decoration: none;
+}
+.navbar-link:hover{
+  color: aliceblue;
+}
+.navbar-logo{
+  border-radius: 32px;
+}
+.btn-primary{
+  width: 100%;
+}
+.mb-8{
+  margin-bottom: 32px;
+}
+.mb-16{
+  margin-bottom: 64px;
+}
+.mt-8{
+  margin-top: 32px;
+}
+.spacer{
+  padding-bottom: 30px;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
