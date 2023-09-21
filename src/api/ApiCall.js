@@ -1,9 +1,9 @@
 import axios from "axios"
 export const signup = body => {
-    return axios.post('/signup', body)
+    return axios.post('/auth/create-user', body)
 }
 export const signin = creds => {
-    return axios.post('/auth',{},{ auth : creds })
+    return axios.post('/auth/auth-user',{},{ auth : creds })
 }
 export const saveProfile = creds =>{
 }

@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from '../../img/logo.jpg';
 import {Link} from 'react-router-dom'
-import Input from '../Input/Input';
 import Search from '../Search/Search';
 import {connect} from 'react-redux'
 import {logoutSuccess} from '../../redux/authActions'
@@ -41,7 +40,6 @@ class TopBar extends Component {
                     </Link>
                 </li>
                 <li>
-                    {/* <Link className='nav-link' to={`/user/${username}`}> */}
                     <Link className='nav-link' to="/profile">
                         {username}
                     </Link>
